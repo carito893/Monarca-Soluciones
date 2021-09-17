@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monarca Soluciones</title>
     <link rel="icon" href="img/icons8-castillo-64.png" type="image/png" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 
 <body>
@@ -85,7 +88,7 @@
         
         .seccion-noticias,
         .header-container {
-            background-color: #f7f7f7
+            background-color: #aac8d1
         }
         
         .seccion-noticias {
@@ -142,28 +145,53 @@
         <div class="header-container">
 
             <div class="site-title">
-                <h1>Una web</h1>
+                <h1>Monarca Soluciones</h1>
             </div>
 
             <!-- Inicio menú navegación -->
             <ul class="site-nav">
                 <a href="#">Inicio</a>
-                <a href="#services">Servicios</a>
-                <a href="#news">Noticias</a>
+                <a href="#services">Catalogo Beneficios</a>
+                <a href="#news">Beneficios</a>
                 <a href="#team">Nuestro equipo</a>
+                <a href="">Login</a>
             </ul>
             <!-- Fin menú navegación -->
-
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
 
             <div class="logo-container">
-                <img class="logo-container__site-logo" src="./logomision.png" alt="Logo MisionTic 2022">
+                <img class="logo-container__site-logo" src="img/logoMonarca.png" alt="Logo MisionTic 2022">
             </div>
         </div>
 
-        <div class="banner">
-            <img src="./banner.jpg" alt="A banner image">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Slide1.jpg" class="d-block w-100 " alt="... ">
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/slider2.jpg " class="d-block w-100 " alt="... ">
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/slider3.jpg " class="d-block w-100 " alt="... ">
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleIndicators " data-bs-slide="prev ">
+              <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+              <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button " data-bs-target="#carouselExampleIndicators " data-bs-slide="next ">
+              <span class="carousel-control-next-icon " aria-hidden="true "></span>
+              <span class="visually-hidden ">Next</span>
+            </button>
         </div>
+
     </div>
     <!-- fin encabezado del sitio -->
 
@@ -172,27 +200,27 @@
     <div>
 
 
-        <h1>Servicios</h1>
+        <h1>Categoria Beneficios</h1>
         <!-- inicio sección de servicios -->
-        <div id="servicios" class="services-section">
-            <article class="services-info">
-                <img class="services-info__imagen" src="http://placeimg.com/200/200/nature" alt="">
-                <h2 class="services-info__title">Servicio 1</h2>
-                <p class="services-info__text">
+        <div id="servicios " class="services-section ">
+            <article class="services-info ">
+                <img class="services-info__imagen " src="http://placeimg.com/200/200/nature " alt=" ">
+                <h2 class="services-info__title ">Pequeños detalles y antojos</h2>
+                <p class="services-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
-            <article class="services-info">
-                <img class="services-info__imagen" src="http://placeimg.com/200/200/tech" alt="">
-                <h2 class="services-info__title">Servicio 2</h2>
-                <p class="services-info__text">
+            <article class="services-info ">
+                <img class="services-info__imagen " src="http://placeimg.com/200/200/tech " alt=" ">
+                <h2 class="services-info__title ">Viajes y mucho sol</h2>
+                <p class="services-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
-            <article class="services-info">
-                <img class="services-info__imagen" src="http://placeimg.com/200/200/people" alt="">
-                <h2 class="services-info__title">Servicio 3</h2>
-                <p class="services-info__text">
+            <article class="services-info ">
+                <img class="services-info__imagen " src="http://placeimg.com/200/200/people " alt=" ">
+                <h2 class="services-info__title ">Deportes y Salud</h2>
+                <p class="services-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
@@ -203,43 +231,43 @@
 
         <h1>Noticias</h1>
         <!-- inicio sección de noticias -->
-        <div id="noticias" class="seccion-noticias">
-            <article class="news-info">
-                <div class="news-header">
-                    <img class="news-info__imagen" src="http://placeimg.com/400/200/animals" alt="">
-                    <h2 class="news-info__title">Noticia 1</h2>
+        <div id="noticias " class="seccion-noticias ">
+            <article class="news-info ">
+                <div class="news-header ">
+                    <img class="news-info__imagen " src="http://placeimg.com/400/200/animals " alt=" ">
+                    <h2 class="news-info__title ">Noticia 1</h2>
                 </div>
-                <p class="news-info__text">
+                <p class="news-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
 
-            <article class="news-info">
-                <div class="news-header">
-                    <img class="news-info__imagen" src="http://placeimg.com/400/200/tech" alt="">
-                    <h2 class="news-info__title">Noticia 2</h2>
+            <article class="news-info ">
+                <div class="news-header ">
+                    <img class="news-info__imagen " src="http://placeimg.com/400/200/tech " alt=" ">
+                    <h2 class="news-info__title ">Noticia 2</h2>
                 </div>
-                <p class="news-info__text">
+                <p class="news-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
 
-            <article class="news-info">
-                <div class="news-header">
-                    <img class="news-info__imagen" src="http://placeimg.com/400/200/arch" alt="">
-                    <h2 class="news-info__title">Noticia 3</h2>
+            <article class="news-info ">
+                <div class="news-header ">
+                    <img class="news-info__imagen " src="http://placeimg.com/400/200/arch " alt=" ">
+                    <h2 class="news-info__title ">Noticia 3</h2>
                 </div>
-                <p class="news-info__text">
+                <p class="news-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
 
-            <article class="news-info">
-                <div class="news-header">
-                    <img class="news-info__imagen" src="http://placeimg.com/400/200/people" alt="">
-                    <h2 class="news-info__title">Noticia 4</h2>
+            <article class="news-info ">
+                <div class="news-header ">
+                    <img class="news-info__imagen " src="http://placeimg.com/400/200/people " alt=" ">
+                    <h2 class="news-info__title ">Noticia 4</h2>
                 </div>
-                <p class="news-info__text">
+                <p class="news-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
@@ -250,36 +278,36 @@
 
         <h1>Equipo</h1>
         <!-- inicio sección de equipo -->
-        <section id="team" class="seccion-equipo">
+        <section id="team " class="seccion-equipo ">
 
-            <article class="team-info">
-                <img class="team-info__imagen" src="http://placeimg.com/100/200/people" alt="">
-                <h2 class="team-info__title">Integrante 1</h2>
-                <p class="team-info__text">
+            <article class="team-info ">
+                <img class="team-info__imagen " src="http://placeimg.com/100/200/people " alt=" ">
+                <h2 class="team-info__title ">Integrante 1</h2>
+                <p class="team-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
 
-            <article class="team-info">
-                <img class="team-info__imagen" src="http://placeimg.com/100/200/tech" alt="">
-                <h2 class="team-info__title">Integrante 2</h2>
-                <p class="team-info__text">
+            <article class="team-info ">
+                <img class="team-info__imagen " src="http://placeimg.com/100/200/tech " alt=" ">
+                <h2 class="team-info__title ">Integrante 2</h2>
+                <p class="team-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
 
-            <article class="team-info">
-                <img class="team-info__imagen" src="http://placeimg.com/100/200/nature" alt="">
-                <h2 class="team-info__title">Integrante 3</h2>
-                <p class="team-info__text">
+            <article class="team-info ">
+                <img class="team-info__imagen " src="http://placeimg.com/100/200/nature " alt=" ">
+                <h2 class="team-info__title ">Integrante 3</h2>
+                <p class="team-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
 
-            <article class="team-info">
-                <img class="team-info__imagen" src="http://placeimg.com/100/200/arch" alt="">
-                <h2 class="team-info__title">Integrante 4</h2>
-                <p class="team-info__text">
+            <article class="team-info ">
+                <img class="team-info__imagen " src="http://placeimg.com/100/200/arch " alt=" ">
+                <h2 class="team-info__title ">Integrante 4</h2>
+                <p class="team-info__text ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
                 </p>
             </article>
@@ -291,7 +319,7 @@
     <!-- fin contenido principal -->
 
     <!-- Inicio pie del sitio -->
-    <div class="seccion-pie">
+    <div class="seccion-pie ">
         <article>
             <h2>Contacto</h2>
             <p>Aquí van varias lineas</p>

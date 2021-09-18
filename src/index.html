@@ -29,7 +29,7 @@
         }
         
         .header-section {
-            margin-bottom: 100px;
+            margin-bottom: 25px;
         }
         
         .header-container {
@@ -37,6 +37,10 @@
             flex-wrap: wrap;
             justify-content: space-around;
             text-align: center;
+        }
+        
+        .w-100 {
+            height: 400px;
         }
         
         .site-title {
@@ -65,11 +69,11 @@
         }
         
         .logo-container__site-logo {
-            height: 80px;
+            height: 70px;
         }
         
         .banner {
-            width: 100%;
+            width: 80%;
         }
         
         .banner>img {
@@ -83,7 +87,23 @@
         .seccion-noticias,
         .seccion-equipo {
             display: flex;
-            margin-bottom: 100px;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+        
+        .CatBen {
+            text-align: center;
+            background-color: #25294f;
+            padding: 20px;
+            color: #aac8d1;
+        }
+        
+        .CatBen.h1 {
+            color: #aac8d1;
+        }
+        
+        .h1 {
+            text-align: center;
         }
         
         .seccion-noticias,
@@ -98,6 +118,13 @@
         .services-info {
             padding: 20px;
             text-align: center;
+            width: 500px;
+            background-color: rgb(97, 120, 128);
+        }
+        
+        .services-info__title {
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
         
         .news-info {
@@ -126,6 +153,13 @@
             border-radius: 50%;
             margin-right: auto;
             margin-left: auto;
+            width: 140px;
+            height: 140px;
+            overflow: hidden;
+        }
+        
+        .services-info__imagen-img:hover {
+            filter: sepia(100%);
         }
         
         .team-info {
@@ -151,7 +185,7 @@
             <!-- Inicio menú navegación -->
             <ul class="site-nav">
                 <a href="#">Inicio</a>
-                <a href="#services">Catalogo Beneficios</a>
+                <a href="#services">Categorias Beneficios</a>
                 <a href="#news">Beneficios</a>
                 <a href="#team">Nuestro equipo</a>
                 <a href="">Login</a>
@@ -182,14 +216,7 @@
                     <img src="img/slider3.jpg " class="d-block w-100 " alt="... ">
                 </div>
             </div>
-            <button class="carousel-control-prev " type="button " data-bs-target="#carouselExampleIndicators " data-bs-slide="prev ">
-              <span class="carousel-control-prev-icon " aria-hidden="true "></span>
-              <span class="visually-hidden ">Previous</span>
-            </button>
-            <button class="carousel-control-next " type="button " data-bs-target="#carouselExampleIndicators " data-bs-slide="next ">
-              <span class="carousel-control-next-icon " aria-hidden="true "></span>
-              <span class="visually-hidden ">Next</span>
-            </button>
+
         </div>
 
     </div>
@@ -198,30 +225,38 @@
 
     <!-- inicio contenido principal -->
     <div>
-
-
-        <h1>Categoria Beneficios</h1>
+        <h1 class="CatBen" id="services">Categorias Beneficios</h1>
         <!-- inicio sección de servicios -->
-        <div id="servicios " class="services-section ">
+        <div class="services-section ">
             <article class="services-info ">
-                <img class="services-info__imagen " src="http://placeimg.com/200/200/nature " alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen1-1.jpg" alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen1-2.jpg " alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen1-3.jpg" alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen1-4.jpg" alt=" ">
                 <h2 class="services-info__title ">Pequeños detalles y antojos</h2>
                 <p class="services-info__text ">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
+                    La categoria de beneficios Pequeños detalles y antojos es en su mayoria para los empleados que cuentan con menos de un año en la empresa Monarca Servicios, o para cualquier empleado que desee usar su beneficio para darse un gusto, encontrarás desde un
+                    helado hasta cenas en excelentes restaurantes.
                 </p>
             </article>
             <article class="services-info ">
-                <img class="services-info__imagen " src="http://placeimg.com/200/200/tech " alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen2-1.jpg" alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen2-2.jpg" alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen2-3.jpg" alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen2-4.jpg" alt=" ">
                 <h2 class="services-info__title ">Viajes y mucho sol</h2>
                 <p class="services-info__text ">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
+                    La categoria de beneficios Viajes y mucho sol busca incentivar a nuestros empleados que tienen una trayectoria más grande en la empresa, puedes encontrar escapadas de un fin de semana, hasta descuentos en ticketes internacinales.
                 </p>
             </article>
             <article class="services-info ">
-                <img class="services-info__imagen " src="http://placeimg.com/200/200/people " alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen3-1.jpg " alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen3-2.jpg " alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen3-3.jpg " alt=" ">
+                <img class="services-info__imagen " src="/src/img/CatBen3-4.jpg " alt=" ">
                 <h2 class="services-info__title ">Deportes y Salud</h2>
                 <p class="services-info__text ">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quas voluptate magni repellat eligendi! Inventore voluptas voluptates quia voluptatum expedita, ducimus delectus dolore eaque maiores iusto modi eum aut corporis?
+                    La categoria de beneficios Deportes y Salud es un escape a nuestra rutina aportando actividades que nos brindan salud, puedes encontrar tiempo de entrenamiento de tus deportes favoritos, suscripciones al gimnasio e incluso actividades en bicicleta.
                 </p>
             </article>
         </div>
@@ -229,7 +264,7 @@
 
 
 
-        <h1>Noticias</h1>
+        <h1 class="CatBen">Noticias</h1>
         <!-- inicio sección de noticias -->
         <div id="noticias " class="seccion-noticias ">
             <article class="news-info ">
@@ -276,7 +311,7 @@
         <!-- fin sección de noticias -->
 
 
-        <h1>Equipo</h1>
+        <h1 class="CatBen">Equipo</h1>
         <!-- inicio sección de equipo -->
         <section id="team " class="seccion-equipo ">
 

@@ -143,10 +143,11 @@
         
         .seccion-pie {
             background-color: #25294f;
-            height: 200px;
+            height: auto;
             display: flex;
             color: white;
             justify-content: space-evenly;
+            padding-top: 5px;
         }
         
         .services-info__imagen {
@@ -158,7 +159,7 @@
             overflow: hidden;
         }
         
-        .services-info__imagen-img:hover {
+        .services-info__imagen>img:hover {
             filter: sepia(100%);
         }
         
@@ -171,6 +172,16 @@
             display: block;
             margin-right: auto;
             margin-left: auto;
+        }
+        
+        .footer-info__imagen {
+            width: 60px;
+            height: 60px;
+            padding: 3%;
+        }
+        
+        .logo-fotter-logo {
+            width: 250px;
         }
     </style>
 
@@ -354,18 +365,25 @@
     <!-- fin contenido principal -->
 
     <!-- Inicio pie del sitio -->
-    <div class="seccion-pie ">
+    <div class="seccion-pie">
         <article>
             <h2>Contacto</h2>
-            <p>Aquí van varias lineas</p>
-            <p>Donde va la información de contacto</p>
-            <p>Como el teléfono y demás</p>
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><img class="footer-info__imagen" src="/src/img/facebook.png" alt=""></a>
+                <a href="https://twitter.com" target="_blank"><img class="footer-info__imagen" src="/src/img/twitter.PNG" alt=""></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="footer-info__imagen" src="/src/img/instagram.PNG" alt=""></a>
+            </div>
+            <p>Monarca Soluciones S.A.S</p>
+            <p>Calle 24 # 19 - 37 Bogotá, Colombia</p>
+            <p>Calle 7 # 6 - 27 Neiva, Huila</p>
         </article>
         <article>
-            <h2>Otra Información</h2>
-            <p>Aquí van varias lineas</p>
-            <p>Donde va la otra información</p>
-            <p>Como el mapa del sitio o enlaces importantes</p>
+            <h2>Software desarrollado por el equipo 3 - Ciclo 3</h2>
+            <p>MisiónTic 2022 - Con el apoyo de la Universidad Tecnologica de Pereira UTP</p>
+            <a href="https://www.misiontic2022.gov.co/portal/"><img src="/src/logomision.png" alt="" target="_blank"></a>
+            <a href="https://www.utp.edu.co/"><img class="logo-fotter-logo" src="/src/img/Logo_utp.png" alt="" target="_blank"></a>
+
+
         </article>
     </div>
     <!-- fin pie del sitio -->
